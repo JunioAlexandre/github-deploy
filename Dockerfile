@@ -4,6 +4,6 @@ RUN apt update
 RUN apt install git -y
 WORKDIR /var/www/html
 COPY src/. ./
-RUN rm -rf ./modelo
+RUN rm -rf ./src
 EXPOSE 80
 CMD [ "apache2ctl","-D", "FOREGROUND" ]
