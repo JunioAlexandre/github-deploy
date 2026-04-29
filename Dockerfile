@@ -1,6 +1,7 @@
 FROM php:8.2-apache
 LABEL maintainer="@birazn"
 RUN apt update
+RUN apt upgrade -y
 RUN apt install git -y
 WORKDIR /var/www/html
 COPY src/. ./
