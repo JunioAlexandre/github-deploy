@@ -23,6 +23,5 @@ jobs:
           context: .
           push: true
           tags: |
-            birazn/applinda:v2.2
-            birazn/applinda:latest
+            junioalexandre/acesso:latest
             
