@@ -1,5 +1,5 @@
 FROM php:8.2-apache
-LABEL maintainer="@birazn"
+LABEL maintainer="@junio"
 RUN apt update
 RUN apt upgrade -y
 RUN apt install git -y
